@@ -1,0 +1,7 @@
+C:\Users\win\Desktop\QLBH\UnitTestProject\bin\Debug\UnitTestProject.dll
+C:\Users\win\Desktop\QLBH\UnitTestProject\bin\Debug\UnitTestProject.pdb
+C:\Users\win\Desktop\QLBH\UnitTestProject\bin\Debug\QLBH.exe
+C:\Users\win\Desktop\QLBH\UnitTestProject\bin\Debug\QLBH.pdb
+C:\Users\win\Desktop\QLBH\UnitTestProject\obj\Debug\UnitTestProject.csprojResolveAssemblyReference.cache
+C:\Users\win\Desktop\QLBH\UnitTestProject\obj\Debug\UnitTestProject.dll
+C:\Users\win\Desktop\QLBH\UnitTestProject\obj\Debug\UnitTestProject.pdb

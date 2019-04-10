@@ -64,10 +64,11 @@
             // 
             this.pictureBox1.BackgroundImage = global::QLBH.Properties.Resources.Login01;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox1.Image = global::QLBH.Properties.Resources.Login01;
+            this.pictureBox1.Image = global::QLBH.Properties.Resources._48371708_228008394763608_7142688234252795904_n;
             this.pictureBox1.Location = new System.Drawing.Point(350, 23);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
@@ -168,7 +169,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::QLBH.Properties.Resources.Login021;
-            this.ClientSize = new System.Drawing.Size(484, 430);
+            this.ClientSize = new System.Drawing.Size(564, 473);
             this.Controls.Add(this.Login_Exit_Button);
             this.Controls.Add(this.Login_Button);
             this.Controls.Add(this.groupBox1);

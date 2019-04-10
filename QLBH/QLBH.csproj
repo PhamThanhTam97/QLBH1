@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\checklogin.cs" />
     <Compile Include="Classes\Connection.cs" />
     <Compile Include="Classes\Data.cs" />
     <Compile Include="Classes\DoanhThu.cs" />
@@ -370,6 +371,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Pic051.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\48371708_228008394763608_7142688234252795904_n.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
