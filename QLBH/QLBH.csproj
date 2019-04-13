@@ -166,6 +166,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="TestProduct\AddProduct.cs" />
+    <Compile Include="TestProduct\DeleteProduct.cs" />
+    <Compile Include="TestProduct\SearchProduct.cs" />
+    <Compile Include="TestProduct\UpdateProduct.cs" />
     <EmbeddedResource Include="Forms\HoaDon\Bill.resx">
       <DependentUpon>Bill.cs</DependentUpon>
     </EmbeddedResource>

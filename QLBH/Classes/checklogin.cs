@@ -15,7 +15,8 @@ namespace QLBH
                if ((id == "")) { return ("2"); }
                else
                    if (pass == "") { return ("3"); }
-
+                   else if (id == "admin" && pass != "123") { return "4"; }
+                   else if (id != "admin") { return "5"; }
                    else return "0";
        }
     }

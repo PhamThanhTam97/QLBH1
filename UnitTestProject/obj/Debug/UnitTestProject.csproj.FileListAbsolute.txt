@@ -5,3 +5,10 @@ C:\Users\win\Desktop\QLBH\UnitTestProject\bin\Debug\QLBH.pdb
 C:\Users\win\Desktop\QLBH\UnitTestProject\obj\Debug\UnitTestProject.csprojResolveAssemblyReference.cache
 C:\Users\win\Desktop\QLBH\UnitTestProject\obj\Debug\UnitTestProject.dll
 C:\Users\win\Desktop\QLBH\UnitTestProject\obj\Debug\UnitTestProject.pdb
+D:\QLBH1\QLBH1\UnitTestProject\bin\Debug\UnitTestProject.dll
+D:\QLBH1\QLBH1\UnitTestProject\bin\Debug\UnitTestProject.pdb
+D:\QLBH1\QLBH1\UnitTestProject\bin\Debug\QLBH.exe
+D:\QLBH1\QLBH1\UnitTestProject\bin\Debug\QLBH.pdb
+D:\QLBH1\QLBH1\UnitTestProject\obj\Debug\UnitTestProject.csprojResolveAssemblyReference.cache
+D:\QLBH1\QLBH1\UnitTestProject\obj\Debug\UnitTestProject.dll
+D:\QLBH1\QLBH1\UnitTestProject\obj\Debug\UnitTestProject.pdb

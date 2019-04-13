@@ -38,7 +38,7 @@ namespace QLBH
         {
              try
             {
-                string address = @"Data Source=DESKTOP-1PBNAS5\SQLEXPRESS;Initial Catalog=_BanHang_;Integrated Security=True";
+                string address = @"Data Source=DESKTOP-JQJLQ06\SQLEXPRESS;Initial Catalog=_BanHang_;Integrated Security=True";
                 connection = new SqlConnection(address);
 
             }
@@ -72,7 +72,7 @@ namespace QLBH
         {
 
             this.OpenSQL();
-            adapter = new SqlDataAdapter("SELECT * FROM "+_table+" WHERE "+key+"="+giatri, connection);
+            adapter = new SqlDataAdapter("SELECT * FROM "+_table+" WHERE "+key+" = '"+giatri+ "'", connection);
             table = new DataTable();
             table.Clear();
             adapter.Fill(table);
@@ -178,14 +178,14 @@ namespace QLBH
         }
         public void TimKiem_PramiryKey(string table, string pamirykey, string giatri,DataGridView grid)
         {
-            string lenh = "SELECT * FROM " + table + " WHERE " + pamirykey + "=" + giatri;
+            string lenh = "SELECT * FROM " + table + " WHERE " + pamirykey + " = '" + giatri + "'";
             this.KetNoiDataGridView(lenh, grid);
              if (grid.RowCount < 2) // datagridview dòng nhỏ hơn 2 trong form tìm kiếm thì ko tìm được
                  MessageBox.Show("Không Tìm Thấy", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
         }
         public void TimKiem_PramiryKeys(string table, string pamirykey_1, string giatri_1, string pamirykey_2, string giatri_2, DataGridView grid)
         {
-            string lenh = "SELECT * FROM " + table + " WHERE " + pamirykey_1+ " = " + giatri_1 + " and " + pamirykey_2 +  " = " + giatri_2;
+            string lenh = "SELECT * FROM " + table + " WHERE " + pamirykey_1+ " = '" + giatri_1 +"'"+ " and " + pamirykey_2 +  " = '" + giatri_2+"'";
             this.KetNoiDataGridView(lenh, grid);
         }
     }

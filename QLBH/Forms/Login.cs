@@ -36,8 +36,10 @@ namespace QLBH
             if (kt == "1") { MessageBox.Show("Bạn vui lòng nhập thông tin tài khoản và mật khẩu"); }
             else if (kt == "2") { MessageBox.Show("Bạn chưa nhập tên đăng nhập"); }
             else if (kt == "3") { MessageBox.Show("Bạn chưa nhập mật khẩu"); }
+            else if (kt == "4") { MessageBox.Show("Sai mật khẩu! Vui lòng nhập lại"); }
+            else if (kt == "5") { MessageBox.Show("Tên đăng nhập không tồn tại! Vui lòng nhập lại"); }
             else if (kt == "0")
-                textboxs = new Test(txt, s);
+            textboxs = new Test(txt, s);
             textboxs.Show_All();
 
             if (save == "1")

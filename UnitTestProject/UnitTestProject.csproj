@@ -50,8 +50,12 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="UnitTestAddProduct.cs" />
+    <Compile Include="UnitTestDeleteProduct.cs" />
+    <Compile Include="UnitTestLogin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnitTestSearchProduct.cs" />
+    <Compile Include="UnitTestUpdateProduct.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\QLBH\QLBH.csproj">
