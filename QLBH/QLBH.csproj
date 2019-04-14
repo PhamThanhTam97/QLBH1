@@ -166,6 +166,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="TestBill\CheckAddTestBill.cs" />
+    <Compile Include="TestBill\CheckDelete.cs" />
+    <Compile Include="TestBill\CheckSearch.cs" />
+    <Compile Include="TestBill\CheckUpdateBill.cs" />
     <Compile Include="TestProduct\AddProduct.cs" />
     <Compile Include="TestProduct\DeleteProduct.cs" />
     <Compile Include="TestProduct\SearchProduct.cs" />

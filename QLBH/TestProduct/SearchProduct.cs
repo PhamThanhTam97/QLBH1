@@ -11,16 +11,20 @@ namespace QLBH.TestProduct
     {
         public static string CheckSearchProduct(string masp)
         {
-            if (masp == string.Empty)
-                return "1";
+
             Connection con = new Connection();
-            DataGridView grid = new DataGridView();
+            string kt = "0";
             string lenh = "SELECT * FROM SANPHAM where MaSP = '" + masp + "'";
             con.TruyVan(lenh);
-            if (masp != lenh)
-                return "2";
-            return "0";
-        }
+            if (masp == "") { kt = "1"; }
+            else if (masp !=  lenh) { kt = "2"; }
+            else
+            {
+                con.TruyVan("SELECT * FROM SANPHAM where MaSP = '" + masp + "'");
+                kt = "0";
+            }
+            return kt;
 
+        }
     }
 }

@@ -11,7 +11,7 @@ namespace UnitTestProject
         [TestMethod]
         public void Test_Search_Product_Success()
         {
-            string actual = SearchProduct.CheckSearchProduct("002");
+            string actual = SearchProduct.CheckSearchProduct("004");
             string expected = "0";
             Assert.AreEqual(expected, actual);
         }

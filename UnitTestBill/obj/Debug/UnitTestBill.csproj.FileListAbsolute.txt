@@ -1,0 +1,7 @@
+D:\QLBH1\QLBH1\UnitTestBill\bin\Debug\UnitTestBill.dll
+D:\QLBH1\QLBH1\UnitTestBill\bin\Debug\UnitTestBill.pdb
+D:\QLBH1\QLBH1\UnitTestBill\bin\Debug\QLBH.exe
+D:\QLBH1\QLBH1\UnitTestBill\bin\Debug\QLBH.pdb
+D:\QLBH1\QLBH1\UnitTestBill\obj\Debug\UnitTestBill.csprojResolveAssemblyReference.cache
+D:\QLBH1\QLBH1\UnitTestBill\obj\Debug\UnitTestBill.dll
+D:\QLBH1\QLBH1\UnitTestBill\obj\Debug\UnitTestBill.pdb

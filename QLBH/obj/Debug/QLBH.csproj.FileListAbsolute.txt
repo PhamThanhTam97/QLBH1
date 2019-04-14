@@ -185,3 +185,4 @@ D:\QLBH1\QLBH1\QLBH\obj\Debug\QLBH.Staff.resources
 D:\QLBH1\QLBH1\QLBH\obj\Debug\QLBH.StaffUpdate.resources
 D:\QLBH1\QLBH1\QLBH\obj\Debug\QLBH.Properties.Resources.resources
 D:\QLBH1\QLBH1\QLBH\obj\Debug\QLBH.csproj.GenerateResource.Cache
+D:\QLBH1\QLBH1\QLBH\obj\Debug\QLBH.csprojResolveAssemblyReference.cache
