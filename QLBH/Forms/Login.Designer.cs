@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Login_CheckBox = new System.Windows.Forms.CheckBox();
             this.Login_Pass_TextBox = new System.Windows.Forms.TextBox();
             this.Login_ID_TextBox = new System.Windows.Forms.TextBox();
@@ -39,13 +38,11 @@
             this.Login_Button = new System.Windows.Forms.Button();
             this.Login_Exit_Button = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox1.Controls.Add(this.pictureBox1);
             this.groupBox1.Controls.Add(this.Login_CheckBox);
             this.groupBox1.Controls.Add(this.Login_Pass_TextBox);
             this.groupBox1.Controls.Add(this.Login_ID_TextBox);
@@ -59,18 +56,6 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Đăng Nhập Hệ Thống Quản Lý";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = global::QLBH.Properties.Resources.Login01;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox1.Image = global::QLBH.Properties.Resources._48371708_228008394763608_7142688234252795904_n;
-            this.pictureBox1.Location = new System.Drawing.Point(350, 23);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 100);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
             // 
             // Login_CheckBox
             // 
@@ -182,7 +167,6 @@
             this.Load += new System.EventHandler(this.Login_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -197,6 +181,5 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button Login_Button;
         private System.Windows.Forms.Button Login_Exit_Button;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

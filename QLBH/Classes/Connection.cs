@@ -38,7 +38,7 @@ namespace QLBH
         {
              try
             {
-                string address = @"Data Source=DESKTOP-JQJLQ06\SQLEXPRESS;Initial Catalog=_BanHang_;Integrated Security=True";
+                string address = @"Data Source=DESKTOP-1PBNAS5\SQLEXPRESS;Initial Catalog=_BanHang_;Integrated Security=True";
                 connection = new SqlConnection(address);
 
             }
